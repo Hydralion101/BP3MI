@@ -1,0 +1,79 @@
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+  }
+
+  .topnav ul li {
+    float: left;
+    background-color:azure;
+  }
+
+
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 113px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #c51f1fd0;
+    color: black;
+  }
+
+  .column {
+    float: left;
+    padding: 53px;
+  }
+
+  /* Left and right column */
+.column.kiri {
+    width: 75%; height: 12%;
+    background-color: #ddd;
+    text-align: center;
+    
+    
+  }
+  
+  /* Middle column */
+  .column.tengah {
+    width: 9%;
+    background-color: #ddd;
+    text-align: center;
+  }
+
+
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
